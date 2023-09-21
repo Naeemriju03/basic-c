@@ -1,25 +1,19 @@
-#include <stdio.h>
 
-int main()
-{
-   int tk;
-   scanf("%d",&tk);
-   if(tk>=10000)
-   {
-       printf("Gucci bag\n");
-       if(tk>20000)
-       {
-           printf("Gucci balt\n");
-       }
+# include <stdio.h>
+int main ()
+{   int taka;
+    scanf("%d",&taka);
+    if(taka>=10000){
+        printf("Gucci Bag\n");
+        if (taka>20000)
+        {
+            printf("Gucci Belt");
+        }
 
-    }
-
-    else if(tk>=5000)
-    {
-        printf("lives bag\n ");
-    }
-    else{
-        printf("someting ");
+    }else if (taka>=5000){
+        printf("Levis Bag");
+    }else{
+        printf("Someting");
     }
     return 0;
 }
